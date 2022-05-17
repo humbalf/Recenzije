@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 0.5rem;
+}
+
+.container {
+    background-color: white;
+    height: 35rem;
+    width: 32rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.imeforma {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ime, .prezime {
+    padding: 1rem;
+    width: 12rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.email {
+    width: 100%;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.poruka {
+    width: 100%;
+    height: 180px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.userInput {
+    margin: 1px;
+    padding: 1px;
+    width: 100%;
+    height: 12rem;
+    resize: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-bottom: 1rem;
+  }
+
+.dugme {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(0, 136, 169, 1);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    padding: 1rem 4rem;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    transition: 0.25s ease;
+    height: 3.5rem;
+}
+
+.dugme:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.dugmedva {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(0, 136, 169, 1);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    transition: 0.25s ease;
+    height: 3.5rem;
+}
+
+.dugmedva:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.dugmad .dugmedva a {
+    text-decoration: none;
+}
+
+.info {
+    height: 35rem;
+    background-color: rgba(0, 136, 169, 0.8);
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 4rem;
+    border-radius: 1rem;
+    width: 35rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.info h1 {
+    margin-bottom: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.podaci {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    margin-bottom: 2.5rem;
+}
+
+.dugmad {
+    display: flex;
+    justify-content: space-around;
+}
+
+i {
+    background-color: rgba(135, 206, 250, 0.726);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
